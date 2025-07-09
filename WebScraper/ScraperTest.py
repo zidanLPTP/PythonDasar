@@ -38,4 +38,4 @@ pf = pd.DataFrame({
 pf.to_excel("Hasil_Scraping_laptop.xlsx", index=False)
 
 # Menampilkan DataFrame di terminal (opsional)
-print(pf)
+# print(pf)
