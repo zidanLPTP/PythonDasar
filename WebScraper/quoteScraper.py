@@ -14,6 +14,7 @@ list_kutipan, list_penulis, list_tag = [], [], []
 while halaman_scrape:
     print(f"Halaman scrape ke-{halaman_scrape}")
 
+    # Minta respon ke halaman terkait
     respon = requests.get(halaman_scrape)
     print(respon)
     respon.raise_for_status()
@@ -21,6 +22,7 @@ while halaman_scrape:
 
     semua_kutipan = soup.find_all("div", class_="quote")
 
+    # Masukkan data ke list kosong
     for isi in semua_kutipan:
         kutipan = isi.find("span", class_="text").text
         list_kutipan.append(kutipan)
