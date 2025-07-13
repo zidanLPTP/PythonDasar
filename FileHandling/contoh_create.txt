@@ -1,0 +1,5 @@
+Halo dunia!
+File ini dibuat dengan mode 'w'
+Ini ditambahkan dengan mode 'a'
+Text ini ditambahkan dari file read.py
+text ini ditambahkan dari file write.py
