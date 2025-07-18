@@ -1,0 +1,41 @@
+{
+    "nama": "Zidan", 
+    "umur": 20, 
+    "ipk": 3.75, 
+    "aktif": true, 
+    "alamat": {
+        "kota": "Pekanbaru", 
+        "provinsi": "Riau", 
+        "kode_pos": 28293
+    }, 
+    "hobi": [
+        "ngoding", 
+        "baca buku", 
+        "ngopi"
+    ], 
+    "jadwal_kuliah": [
+        [
+            "Senin", 
+            "Matematika Diskrit"
+        ], 
+        [
+            "Selasa", 
+            "Struktur Data"
+        ], 
+        [
+            "Rabu", 
+            "Web Programming"
+        ]
+    ], 
+    "nilai_ujian": {
+        "uts": 88, 
+        "uas": 91, 
+        "kuis": [
+            80, 
+            85, 
+            90
+        ]
+    }, 
+    "magang": null, 
+    "is_admin": false
+}
